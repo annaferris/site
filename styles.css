@@ -1,0 +1,72 @@
+html {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16;
+  color: white;
+}
+
+span {
+  line-height: 1.6em;
+  font-size: 1.5rem;
+  font-weight: 800;
+  user-select: none;
+  background-color: #124446;
+  padding: 0 20px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+#name {
+  position: fixed;
+  margin: 0;
+  left: 5%;
+  bottom: 50px;
+  user-select: none;
+}
+
+#copy {
+  position: fixed;
+  left: 5%;
+  width: calc(90% - 40px);
+  top: 30%;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+#links img {
+  height: 100%;
+  margin-left: 15px;
+}
+
+@media (min-width: 900px) {
+  span {
+    font-size: 3rem;
+  }
+
+  #copy {
+    width: 80%;
+  }
+
+  #links {
+    height: 40px;
+  }
+
+  #links img {
+    margin-left: 25px;
+  }
+}

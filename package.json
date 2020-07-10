@@ -1,0 +1,11 @@
+{
+  "name": "anna-site",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Luke Loreti <lhloreti@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
